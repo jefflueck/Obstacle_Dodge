@@ -8,7 +8,7 @@ public class Mover : MonoBehaviour
     void Start()
     {
         // Start player in the center of the screen
-        transform.position = new Vector3(0f, 0.5f, 0f);
+        transform.position = new Vector3(0f, 0.5f, -15f);
         PrintInstructions();
     }
 
