@@ -12,9 +12,14 @@ public class FlyAtPlayer : MonoBehaviour
     [SerializeField]
     private float speed = 10f;
 
-    void Start()
+    void Awake()
     {
         gameObject.SetActive(false);
+
+    }
+
+    void Start()
+    {
         playerPosition = player.transform.position;
 
     }
