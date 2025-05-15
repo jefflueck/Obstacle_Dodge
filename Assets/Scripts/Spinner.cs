@@ -10,10 +10,7 @@ public class Spinner : MonoBehaviour
     private float yValue = 0.5f;
     [SerializeField]
     private float zValue = 0f;
-    void Start()
-    {
-        transform.position = new Vector3(7f, .35f, -.10f);
-    }
+
 
     void Update()
     {

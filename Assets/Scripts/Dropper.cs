@@ -17,7 +17,7 @@ public class Dropper : MonoBehaviour
 
         myMeshRenderer.enabled = false;
         myRigidbody.useGravity = false;
-        transform.position = new UnityEngine.Vector3(-10.50f, 7f, -1.30f);
+
     }
 
 
